@@ -4,32 +4,32 @@
 const galleryImages = [
   {
     id: 1,
-    src: 'images/H1.avif', 
+    src: '/images/H1.avif', 
     alt: 'Gallery image 1',
   },
   {
     id: 2,
-    src: 'images/H2.jpg', 
+    src: '/images/H2.jpg', 
     alt: 'Gallery image 2',
   },
   {
     id: 3,
-    src: 'images/H3.avif', 
+    src: '/images/H3.avif', 
     alt: 'Gallery image 3',
   },
   {
     id: 4,
-    src: 'images/H4.jpg', 
+    src: '/images/H4.jpg', 
     alt: 'Gallery image 4',
   },
   {
     id: 5,
-    src: 'images/H10.avif', 
+    src: '/images/H10.avif', 
     alt: 'Gallery image 5',
   },
   {
     id: 6,
-    src: 'images/H11.jpg', 
+    src: '/images/H11.jpg', 
     alt: 'Gallery image 6',
   },
   {
@@ -39,12 +39,12 @@ const galleryImages = [
   },
   {
     id: 8,
-    src: 'images/H7.jpg', 
+    src: '/images/H7.jpg', 
     alt: 'Gallery image 8',
   },
   {
     id: 9,
-    src: 'images/H8.avif', 
+    src: '/images/H8.avif', 
     alt: 'Gallery image 9',
   },
 ];

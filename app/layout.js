@@ -1,5 +1,8 @@
-
 import "./globals.css";
+import Header from "./components/header";
+import Navbar from "./components/navbar";
+import Footer from "./components/footer";
+import Breadcrumb from "./components/ui/Breadcrumb";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,17 +11,25 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-     <html lang="en">
+    <html lang="en">
       <head>
         {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com"  />
-        <link rel="preconnect" href="https://fonts.gstatic.com"  crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@500;600&family=Open+Sans&display=swap"
           rel="stylesheet"
         />
       </head>
+      <Header />
+      <Navbar />
+      <Breadcrumb />
       <body className="font-body">{children}</body>
+      <Footer />
     </html>
   );
 }

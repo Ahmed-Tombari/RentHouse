@@ -37,7 +37,7 @@ export default function HeroSlider() {
       <SwiperSlide>
         <div className="w-full h-full bg-indigo-50 flex justify-center items-center">
           <span className="text-3xl font-semibold text-indigo-600"></span>
-          <img src="/images/house.png" alt="renthouse" className=""></img>
+          <img src="../../../../public/images/house.png" alt="renthouse" className=""></img>
         </div>
       </SwiperSlide>
 
